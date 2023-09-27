@@ -1,4 +1,4 @@
-#60% Top Mount + O ring Mount
+# 60% Top Mount + O ring Mount
 
 ---
 ### Pictures
