@@ -4,7 +4,7 @@
 
 ---
 
-A small project I've been working on, a wireless keyboard through dongle/true wireless via bluetooth 5.0, inspired by [Vincent Nguyen](https://github.com/nguyen-v)'s [Aloidia project](https://hackaday.io/project/189688-aloidia-wireless-split-solar-powered-keyboard).
+A wireless keyboard through dongle via bluetooth 5.0, powered by nRFMicro 52840, inspired by [Vincent Nguyen](https://github.com/nguyen-v)'s [Aloidia project](https://hackaday.io/project/189688-aloidia-wireless-split-solar-powered-keyboard).
 
 I've been loving the split and alice keyboards, but they often have a critical flaw (at least for me): they use a 2.25u spacebar on the left side, and I want a longer spacebar on the left so my thumb can be comfortable both when I'm gaming and typing.
 
