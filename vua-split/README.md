@@ -16,6 +16,10 @@ Btw I'm a Mac user so I love my exploded Command key.
 
 This keyboard use Geon's Tad Pole mount for simplicity.
 
+## Video:
+
+[![Sound test](https://img.youtube.com/vi/9riWB6Ux5Mw/0.jpg)](https://youtu.be/9riWB6Ux5Mw "Give me some likes please :>")
+
 ## PCB layout support
 
 <img src="images/vua_layout.png" width="1024">
