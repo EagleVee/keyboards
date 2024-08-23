@@ -15,4 +15,6 @@ The file was tested and worked with Unikorn, and should work with 1-piece O-ring
 
 In case the inside of the case is too loose, you can use tapes in the inner case to reduce the space.
 
+## Files
 
+[Download STL files](./oring-plateless-kit(Free%20For%20Personal%20Use).STL)
