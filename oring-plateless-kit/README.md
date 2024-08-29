@@ -9,7 +9,7 @@ O-ring Plateless Kit - 3D Printed designed by Thai Cong from Vietnam Mechanical 
 
 With O-ring you have to have a plate to hold the O-ring, otherwise it will just bounce up when you type.
 
-The kit will clip into the PCB for each O-ring cutout, and thanks to the part underneath the PCB, it will help the PCB stay above the O-ring posts, without needing a plate to hold the kit.
+The kit will clip into the PCB for each O-ring cutout, and thanks to the part underneath the PCB, it will help the PCB stay above the O-ring posts, without needing a plate.
 
 The file is designed for TPU printed, optimized for Nozzle 0.2mm print. Only works with 1.6mm PCB. The hardness is about 75A-90A O-ring.
 
