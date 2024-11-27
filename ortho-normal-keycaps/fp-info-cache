@@ -1,4 +1,4 @@
-24853126193278680
+24853126233151394
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100562,6 +100562,13 @@ cherry mx switch
 6
 2
 eaglevlib-mx
+SW_MX_CapsLock
+Footprint for Cherry MX style switches
+
+0
+14
+2
+eaglevlib-mx
 SW_MX_HS_CPG151101S11_1.5u
 Footprint for Cherry MX style switches with Kailh hotswap socket
 
@@ -100606,13 +100613,6 @@ Footprint for Cherry MX style switches with Kailh hotswap socket
 eaglevlib-mx
 SW_MX_HS_S_CPG151101S11_1u
 Footprint for Cherry MX style switches with Kailh hotswap socket
-
-0
-6
-2
-eaglevlib-mx
-SW_MX_StepNormal
-Footprint for Cherry MX style switches
 
 0
 6

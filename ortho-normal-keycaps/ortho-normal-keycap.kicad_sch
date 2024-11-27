@@ -5,6 +5,191 @@
 	(uuid "75ca063f-3e3a-4a56-b625-1bf464e147b8")
 	(paper "A4")
 	(lib_symbols
+		(symbol "PCM_marbastlib-mx:MX_stab"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_stab"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cherry MX-style stabilizer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cherry mx stabilizer stab"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_stab_0_1"
+				(rectangle
+					(start -5.08 -1.524)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 1.27)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.826 2.794)
+					(end -2.794 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -2.286)
+					(end -3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -1.778)
+					(end 4.064 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 1.27)
+					(end -3.556 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.524)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 1.27)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 2.794)
+					(end 4.826 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.556 1.27)
+					(end 4.064 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.064 -2.286)
+					(end 3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "PCM_marbastlib-various:nRF52840_E73-2G4M08S1C"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1435,12 +1620,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3f2eb04-1d0c-432f-bc55-5495a05df870")
-	)
-	(junction
-		(at 187.96 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b42371a8-ada1-4a09-9174-861328f30f75")
 	)
 	(junction
 		(at 223.52 78.74)
@@ -3297,6 +3476,70 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 158.75 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1045db5d-7dc8-4c56-ab76-5c7b0317ad22")
+		(property "Reference" "S1"
+			(at 165.1 153.5429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 165.1 156.0829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "eaglevlib-mx:STAB_MX_2.25u"
+			(at 158.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 158.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/75ca063f-3e3a-4a56-b625-1bf464e147b8"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 228.6 68.58 90)
 		(unit 1)
@@ -3586,7 +3829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eaglevlib-mx:SW_MX_1u"
+		(property "Footprint" "eaglevlib-mx:SW_MX_1.25u"
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -4054,7 +4297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eaglevlib-mx:SW_MX_1u"
+		(property "Footprint" "eaglevlib-mx:SW_MX_1.25u"
 			(at 205.74 134.62 0)
 			(effects
 				(font
@@ -4403,6 +4646,70 @@
 			(project "ortho-normal-keycap"
 				(path "/75ca063f-3e3a-4a56-b625-1bf464e147b8"
 					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 181.61 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a04ee15-0b15-4d9f-97b0-5d6d159c3742")
+		(property "Reference" "S2"
+			(at 187.96 153.5429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 187.96 156.0829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "eaglevlib-mx:STAB_MX_2.75u"
+			(at 181.61 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 181.61 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ortho-normal-keycap"
+				(path "/75ca063f-3e3a-4a56-b625-1bf464e147b8"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -5054,74 +5361,6 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 185.42 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "766017f3-f44e-4742-967b-688e3fb78e41")
-		(property "Reference" "SW34"
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Switch"
-			(at 185.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "eaglevlib-mx:SW_MX_1u"
-			(at 185.42 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 185.42 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aba0fc95-8f15-408e-98a3-5a4aa45f68f4")
-		)
-		(pin "2"
-			(uuid "9c3cb741-0296-4491-a2d6-868289191311")
-		)
-		(instances
-			(project "ortho-normal-keycap"
-				(path "/75ca063f-3e3a-4a56-b625-1bf464e147b8"
-					(reference "SW34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 215.9 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5478,7 +5717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eaglevlib-mx:SW_MX_1u"
+		(property "Footprint" "eaglevlib-mx:SW_MX_1.5u"
 			(at 185.42 81.28 0)
 			(effects
 				(font
@@ -6774,7 +7013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eaglevlib-mx:SW_MX_1u"
+		(property "Footprint" "eaglevlib-mx:SW_MX_CapsLock"
 			(at 185.42 99.06 0)
 			(effects
 				(font
@@ -6998,7 +7237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eaglevlib-mx:SW_MX_1u"
+		(property "Footprint" "eaglevlib-mx:SW_MX_1.25u"
 			(at 195.58 134.62 0)
 			(effects
 				(font
